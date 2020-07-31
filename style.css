@@ -1,0 +1,37 @@
+
+/* 5 images with links to webpages displayed in a grid - the first column is 50% the width of the page and the other 2 are 25% each */
+#gridCon {
+    display: grid;
+    grid-template-columns: 50% 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: steelblue;
+}
+
+/* Formatted to be 100% the width of the alloted cell */
+.GW img {
+    border-style: solid;
+    width: 100%;   
+}
+
+/* Same as above */
+.FL img {
+    border-style: solid;
+    width: 100%;
+}
+
+.pass img {
+    width: 100%;
+    border-style: solid;  
+}
+
+.HTJ img {
+    width: 100%;
+    border: solid;
+}
+
+/* Formatted to take up both columns */
+.PoE img {
+    width: 200%;
+    border: solid;  
+}
+
